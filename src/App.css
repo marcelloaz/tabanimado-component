@@ -1,7 +1,28 @@
-.App {
-  text-align: center;
+.nav-tabs{
+  border: none;
 }
 
+.nav-tabs .nav-item .nav-link{
+  border: none;
+}
+
+.nav-tabs .nav-item .nav-link.active{
+  border-bottom: 3px solid #E40046;
+}
+
+.nav-tabs .nav-item .nav-link:hover{
+  border-bottom: 3px solid #00e413;
+}
+
+.tab-content{
+  padding: 10px;
+}
+
+.tab-pane{
+  display: block;
+}
+
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +56,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
